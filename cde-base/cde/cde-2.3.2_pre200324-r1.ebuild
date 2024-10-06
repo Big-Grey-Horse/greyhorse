@@ -17,7 +17,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="X -xinetd -doc tools l10n_en l10n_de l10n_it l10n_fr l10n_es l10n_ja examples system_sgml"
 
 DEPEND="
-	x11-base/xorg-xserver
+	x11-base/xorg-server
 	x11-libs/motif[jpeg,xft]
 	media-libs/freetype
 	dev-libs/openssl
